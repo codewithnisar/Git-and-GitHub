@@ -3,25 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GitHub Page</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Shoppy - Online Shopping</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
-    <header>
-        <div class="logo">GitHub Logo</div>
-    <nav>
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Repositories</a></li>
-            <li><a href="#">Projects</a></li>
-            <li><a href="#">Settings</a></li>
-        </ul>
-    </nav>
-    </div>
-    <div class="content">   
-        <h1>Welcome to GitHub</h1>
-        <p>This is a sample GitHub page.</p>
-    </div>
+    <header class="header">
+        <div class="header-container">
+            <div class="logo">
+                <div class="logo-icon">🛍</div>
+                <span class="logo-text">SHOPPY</span>
+            </div>
+            
+            <nav class="navbar">
+                <ul class="nav-menu">
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">SHOP</a></li>
+                    <li><a href="#">DAILY DEALS</a></li>
+                    <li><a href="#">BLOG</a></li>
+                    <li><a href="#">PAGES</a></li>
+                    <li><a href="#">PORTFOLIOS</a></li>
+                </ul>
+            </nav>
+
+            <div class="header-right">
+                <div class="search-bar">
+                    <input type="text" placeholder="Search...">
+                    <button class="search-btn"><i class="fas fa-search"></i></button>
+                </div>
+                <div class="cart-icon">
+                    <i class="fas fa-shopping-cart"></i>
+                    <span class="cart-count">0</span>
+                    <span class="cart-price">$0.00</span>
+                </div>
+            </div>
+        </div>
     </header>
+
+    <main class="content">
+        <h1>Welcome to Shoppy</h1>
+        <p>Your favorite online shopping destination</p>
+    </main>
+
+    <script src="script.js"></script>
 </body>
 </html>
